@@ -3,7 +3,7 @@
 > Extract from a successful **Mission `values[2]`** times.
 
 > [!WARNING]
-> More info on this Order type is needed - Mission being bolded leads me to believe it can change.
+> More info on this Order type is needed - "Mission" being bolded leads me to believe it can change.
 
 ```ts
 const amount: number = values[2];
