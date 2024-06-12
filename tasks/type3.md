@@ -15,10 +15,10 @@ enum Factions {
 const faction: Factions = values[0];
 const amount: number = values[2];
 const enemyID: number = values[3];
-const stratagemNeeded: boolean = values[4] === 1;
+const stratagemNeeded: number = values[4];
 const stratagem: number = values[5];
 
-const desc = stratagemNeeded
+const desc = stratagemNeeded === 1
   ? `Kill <i=1>${amount} ${faction}</i> using the <i=1>${getStratagemName(stratagem)}</i>.`
   : `Kill <i=1>${amount} ${faction}</i>.`;
 ```
