@@ -11,7 +11,10 @@ enum ObjectiveType {
 };
 
 const amount: number = values[2];
-const objectiveType: ObjectiveType = values[3];
+const objective: ObjectiveType = values[3];
+const objectiveName = ObjectiveType[objective].toString();
+
+const desc = `Complete <i=1>${amount} ${objectiveName} Objectives</i>.`;
 ```
 
 ### Examples:

@@ -17,6 +17,10 @@ const amount: number = values[2];
 const enemyID: number = values[3];
 const stratagemNeeded: boolean = values[4] === 1;
 const stratagem: number = values[5];
+
+const desc = stratagemNeeded
+  ? `Kill <i=1>${amount} ${faction}</i> using the <i=1>${getStratagemName(stratagem)}</i>.`
+  : `Kill <i=1>${amount} ${faction}</i>.`;
 ```
 
 ### Examples:

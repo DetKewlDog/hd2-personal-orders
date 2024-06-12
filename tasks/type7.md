@@ -7,6 +7,8 @@
 
 ```ts
 const amount: number = values[2];
+
+const desc = `Extract from a successful <i=1>Mission ${amount} times</i>.`;
 ```
 
 ### Examples:

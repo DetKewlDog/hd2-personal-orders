@@ -9,7 +9,10 @@ enum SampleRarities {
 };
 
 const amount: number = values[2];
-const sampleID: SampleRarities = values[5];
+const sample: SampleRarities = values[5];
+const sampleName = SampleRarities[sample].toString();
+
+const desc = `Successfully extract with <i=1>${amount} ${sampleName} Samples</i>.`;
 ```
 
 ### Examples:
