@@ -1,6 +1,6 @@
 ## `type = 4`
 
-> Complete **`values[2]` `values[3]`**.
+> Complete **`values[2]` `values[3]` Objectives**.
 
 > [!WARNING]
 > More info on `values[3]` needed!
