@@ -34,7 +34,7 @@ const sampleID: SampleRarities = values[5];
           1,
           10, // <-- amount
           0,
-          1,
+          1, // <-- might be bool for specific sample type
           3992382197, // <-- sample
           0,
           0,
