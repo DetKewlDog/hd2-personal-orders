@@ -28,7 +28,7 @@ const amount: number = values[2];
         "values": [
           0,
           0,
-          3,
+          3, // <-- amount
           0,
           0,
           0,
