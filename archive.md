@@ -662,3 +662,59 @@
   }
   ```
 </details>
+
+<details>
+  <summary>13/06/2024</summary>
+
+  > Kill **100 Enemies** using the **Flamethrower**.
+  ```json
+  {
+    "id32": 1907510616,
+    "progress": [
+      0
+    ],
+    "expiresIn": 44579,
+    "setting": {
+      "type": 2,
+      "overrideTitle": "",
+      "overrideBrief": "",
+      "taskDescription": "",
+      "tasks": [
+        {
+          "type": 3,
+          "values": [
+            0,
+            1,
+            100,
+            0,
+            1,
+            1944161163,
+            0,
+            0,
+            0,
+            0
+          ],
+          "valueTypes": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            8,
+            9,
+            11,
+            12
+          ]
+        }
+      ],
+      "reward": {
+        "type": 1,
+        "id32": 897894480,
+        "amount": 15
+      },
+      "flags": 0
+    }
+  }
+  ```
+</details>
