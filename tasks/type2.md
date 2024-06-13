@@ -34,7 +34,7 @@ const desc = `Successfully extract with <i=1>${amount} ${sampleName} Samples</i>
         "type": 2, // <-- type
         "values": [
           0,
-          1,
+          1, // <-- might be bool for amount
           10, // <-- amount
           0,
           1, // <-- might be bool for specific sample type
